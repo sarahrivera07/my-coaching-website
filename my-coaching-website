@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Women's Leadership & Empowerment Coaching</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+
+body{
+margin:0;
+font-family:'Inter',sans-serif;
+background:#faf9f7;
+color:#2d2d2d;
+line-height:1.6;
+}
+
+h1,h2,h3{
+font-family:'Playfair Display',serif;
+}
+
+header{
+background:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d');
+background-size:cover;
+background-position:center;
+color:white;
+text-align:center;
+padding:120px 20px;
+}
+
+header h1{
+font-size:42px;
+max-width:800px;
+margin:auto;
+}
+
+header p{
+margin-top:20px;
+font-size:20px;
+letter-spacing:1px;
+}
+
+section{
+padding:70px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+align-items:center;
+}
+
+.about img{
+width:100%;
+border-radius:14px;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.06);
+}
+
+.pricing{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.price-card{
+background:white;
+padding:35px;
+border-radius:14px;
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+text-align:center;
+}
+
+.price{
+font-size:34px;
+margin:15px 0;
+color:#c6a86b;
+}
+
+button{
+padding:12px 26px;
+border:none;
+background:#c6a86b;
+color:white;
+font-size:15px;
+border-radius:6px;
+cursor:pointer;
+margin-top:15px;
+}
+
+button:hover{
+opacity:0.9;
+}
+
+.cta{
+text-align:center;
+background:#111;
+color:white;
+padding:80px 20px;
+}
+
+footer{
+text-align:center;
+padding:25px;
+font-size:14px;
+background:#f2f2f2;
+}
+
+@media(max-width:800px){
+.about{
+grid-template-columns:1fr;
+}
+header h1{
+font-size:32px;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>A Private Coaching Experience for Ambitious Women in Leadership</h1>
+<p>Leadership • Confidence • Empowerment</p>
+</header>
+
+<section class="about">
+<div>
+<h2>About Me</h2>
+<p>
+I am a leadership and empowerment coach dedicated to helping ambitious women step fully into their confidence, influence, and potential. My coaching blends strategic career guidance with deep personal empowerment so you can lead with clarity, authority, and authenticity.
+</p>
+
+<p>
+Whether you're navigating a career transition, stepping into executive leadership, or seeking greater alignment in your professional life, my mission is to support you in creating a career and life that reflects your highest vision.
+</p>
+
+<p>
+Through private coaching, I provide a supportive and strategic space where women can elevate their leadership, strengthen self-trust, and expand their impact.
+</p>
+</div>
+
+<div>
+<img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2" alt="women leadership coaching">
+</div>
+</section>
+
+<section>
+<h2 style="text-align:center">Coaching Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Executive Leadership Coaching</h3>
+<p>Private coaching for women leaders looking to strengthen executive presence, influence, communication, and leadership impact.</p>
+</div>
+
+<div class="card">
+<h3>Career Strategy Coaching</h3>
+<p>Navigate promotions, career pivots, or leadership transitions with clarity and strategic guidance.</p>
+</div>
+
+<div class="card">
+<h3>Confidence & Empowerment Coaching</h3>
+<p>Develop deeper self-trust, overcome imposter syndrome, and lead with authentic confidence.</p>
+</div>
+
+<div class="card">
+<h3>Private 1:1 Coaching</h3>
+<p>A personalized coaching experience tailored to your career goals, leadership growth, and personal expansion.</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2 style="text-align:center">Coaching Packages</h2>
+
+<div class="pricing">
+
+<div class="price-card">
+<h3>Clarity Session</h3>
+<p class="price">$250</p>
+<p>Single 60‑minute coaching session focused on one specific challenge or leadership goal.</p>
+<button>Book Session</button>
+</div>
+
+<div class="price-card">
+<h3>3‑Month Leadership Coaching</h3>
+<p class="price">$1,800</p>
+<p>Bi‑weekly private coaching sessions designed to strengthen leadership skills, confidence, and career direction.</p>
+<button>Apply Now</button>
+</div>
+
+<div class="price-card">
+<h3>6‑Month Executive Coaching</h3>
+<p class="price">$3,500</p>
+<p>A high‑touch coaching experience for women ready to elevate their leadership, influence, and long‑term vision.</p>
+<button>Apply Now</button>
+</div>
+
+</div>
+</section>
+
+<section class="cta">
+<h2>Begin Your Next Level</h2>
+<p>Book a discovery call to explore how coaching can support your leadership and career growth.</p>
+<button>Schedule a Discovery Call</button>
+</section>
+
+<footer>
+<p>© 2026 Women's Leadership & Empowerment Coaching</p>
+</footer>
+
+</body>
+</html>
